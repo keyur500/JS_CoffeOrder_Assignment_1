@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+.container{
+    background-color: #4e3d53;
+    color: #fff;
+    min-height: 50vh;
+    display: flex;
+    margin-top: 25vh;
+    border-radius: 10px;
+    /* -ms-flex-align: center; */
+}
+
+.col-md-5{
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.output{
+    font-family: 'Space Mono', monospace;  
+}
+
+form{
+    font-family: 'Space Mono', monospace;
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.orderDisplay {
+    border: 2px dashed #fff;
+    padding: 15px;
+    width: 50%;
+    margin: auto;
+    margin-top: 10%;
+}
+
+#dispOrderName {
+    background-color: #fff;
+    color: black;
+    padding: 2px;
+}
+
+#dispModifiers{
+    color: #f2a154;
+}
+#dispDairy {
+    color: #16c79a;
+}
+#dispSize_Drink{
+    color: #f9f871;
+}
+
+/* Responsive code for mobile layout */
+@media only screen and (max-width: 600px) {
+    .container{
+        min-height: 100vh;
+        margin: 0;
+        border-radius: 0;
+        display: block;
+    }
+  
+    .output{
+        margin-top: 10px;
+    }
+  }
